@@ -43,7 +43,7 @@ Bubbly Flow; Physically Conditioned Deep Learning; Image Generation Model; Gener
 * You can download the BF-GAN models at：https://data.mendeley.com/datasets/gtbcrhdnrh/1
 
 ```.bash
-# Generate  bubbly flow images using pre-trained models
+# Generate bubbly flow images using pre-trained models
 
 python BF-GAN.py --outdir=out --label=0.014,0.260 --seeds=0-33 --network=/home/user/ZHOU-Wen/BF-GAN/BF-GAN-models/network-snapshot-00027-5000.pkl
 ```
