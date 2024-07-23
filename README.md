@@ -45,7 +45,7 @@ Bubbly Flow; Physically Conditioned Deep Learning; Image Generation Model; Gener
 ```.bash
 # Generate an bubbly flow image using pre-trained models
 
-python BF-GAN.py --outdir=out --label=0.014,0.260 --seeds=0-33 --network=/home/user/ZHOU-Wen/BF-GAN/models/network-snapshot-00027-5000.pkl
+python BF-GAN.py --outdir=out --label=0.014,0.260 --seeds=0-33 --network=/home/user/ZHOU-Wen/BF-GAN/BF-GAN-models/network-snapshot-00027-5000.pkl
 ```
 
 'outdir' will specify the output directory.
