@@ -87,14 +87,12 @@ def generate_images(
         from PIL import Image
 
         def crop_and_save_image(image_path):
-            # 加载原始图片
             img = Image.open(image_path)
             original_name = image_path.split('.')[0]
             start_x = 0
             width = 88
             move_steps = [8, 9, 10, 11, 8]
 
-            # 循环裁剪和保存图片
             for i, step in enumerate(move_steps):
                 start_x += step
                 crop_image = img.crop((start_x, 0, start_x + width, img.height))
