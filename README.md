@@ -1,6 +1,6 @@
 ## BF-GAN: Development of an AI-driven Bubbly Flow Image Generation Model Using Bubbly Generative Adversarial Networks<br><sub>Official PyTorch implementation version</sub>
 
-![Display image](./docs/tinywow_bubbly_61239688.gif)
+![Display image](./docs/bubbly.gif)
 ![Display image](./docs/1.png)
 ![Display image](./docs/2.png)
 
