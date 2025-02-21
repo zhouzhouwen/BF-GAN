@@ -8,7 +8,7 @@ import PIL.Image
 import torch
 import legacy
 
-# zhouwen
+
 # ----------------------------------------------------------------------------
 
 def parse_range(s: Union[str, List]) -> List[int]:
