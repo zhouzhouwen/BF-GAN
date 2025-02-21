@@ -1,4 +1,4 @@
-name: BF-GAN111
+name: BF-GAN
 channels:
   - nvidia
   - defaults
